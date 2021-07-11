@@ -1,0 +1,340 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ .top-container{
+    background: url(spaghetti-1932466_1920.jpg) no-repeat center center/cover;
+    padding: 1px 1px;
+    height: 500px;
+    opacity:0.9;
+}
+
+
+.navbar{
+    /* border: 2px solid red;   */
+    height:100px;
+    width: 100%;
+    background-color:#f1f7f3;
+    display: flex;
+    
+    position: fixed;
+    
+    
+}
+.navbar img{
+    width:40px;
+    margin: 24px 5px;
+    /* padding: 10px 15px;  */
+    border-radius: 40px;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-top: 39px;
+    padding-left: 0px;
+    
+}
+.navbar ul li a {
+    text-decoration: none;
+    margin:10px 15px ;
+    padding: 10px;
+    color:darkblue;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.5rem;
+}
+.navbar ul li :hover{
+    background-color: rgb(102, 102, 218);
+}
+
+.content1{
+    /* border: 2px solid blue;   */
+    height: 300px;
+    width: 700px;
+    margin: auto;
+    margin-top:140px;
+    /* color:white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .para1{
+    width:636px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 18rem;
+
+}
+.para2{
+    width:342px;
+    margin: 0;
+    font-size: 18rem;
+} */
+
+.content1 h1 {
+    font-size: 2rem;
+    text-align: center;
+    color:white;
+    font-family: 'Bree Serif', serif;
+    margin: 0;
+}
+.content1 p {
+    color:white;
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn{
+    margin: 15px 5px;  
+    padding: 10px 19px;  
+    color: #ef2a09;
+    background-color: #daefd2; 
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.middle-container {
+    height: 400px;  
+    background-color:#eef5ef;
+    width: 100%;
+    
+    
+}
+.middle-container h1 {
+    color:black;
+    text-align: center;
+    font-weight:bold;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+    padding: 15px;
+}
+#box123{
+    /* height: 500px;  */
+    /* width:1250px;  */
+    /* border: 2px solid red;  */
+    display: flex;
+    justify-content: space-between;
+}
+#box-1{
+    height: 260px;
+    width: 375px;
+    border: 2px solid gray;
+    margin: 10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top:10px;
+    /* padding-bottom: 20px; */
+    background-color: #f2eae5;
+
+}
+#box-2{
+    height: 260px;
+    width: 375px;
+    border: 2px solid gray;
+    margin: 10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top:10px;
+    /* padding-bottom: 20px; */
+    background-color: #f2eae5;
+
+}
+#box-3{
+    height: 260px;
+    width: 375px;
+    border: 2px solid gray;
+    margin: 10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top:10px;
+    /* padding-bottom: 20px; */
+    background-color: #f2eae5;
+
+
+}
+#box-1 img {
+    width:105px;
+    border-radius: 50px;
+   
+}
+#box-1 h3 {
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-family: 'Bree Serif', serif;
+    
+}
+
+#box-1 p {
+    line-height:1;
+    font-size: 15px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#box-2 img {
+    width:105px;
+    border-radius: 50px;
+    
+}
+#box-2 h3 {
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-family: 'Bree Serif', serif;
+} 
+#box-2 p {
+    line-height:1;
+    font-size: 15px;
+    
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#box-3 img {
+    width:80px;
+    border-radius: 40px;
+    
+   
+}
+#box-3 h3 {
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-family: 'Bree Serif', serif;
+} 
+#box-3 p {
+    line-height:1;
+    font-size: 15px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.bottom-container {
+    height:300px;  
+   background-color: #efe9de;  
+   
+    width: 100%;
+    
+    
+    
+}
+
+.bottom-container h1 {
+    color:black;
+    text-align: center;
+    font-weight:bold;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+    padding: 15px;
+    font-weight: bold;
+}
+#images{
+    height: 600px;  
+    width:1250px;  
+    /* border: 2px solid black;  */
+    display: flex;
+    justify-content: center;
+    
+} 
+.img1{
+    width: 190px;
+    height: 150px;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+.img2{
+    width:190px;
+    height: 150px;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+.img3{
+    margin-top: 24px;
+    width:190px;
+    height: 150px;
+}
+.last-container {
+    height:450px;  
+    background: url(pexels-ella-olsson-1640777.jpg) no-repeat center center/cover;
+    opacity: 0.7;
+    /* background-color:#eef5ef;  */
+    width: 100%;
+    
+    
+}
+.last-container h1 {
+    color:black;
+    text-align: center;
+    font-weight:bold;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+    padding: 15px;
+}
+#contact-form{
+    height: 400px;
+    width: 1200px;
+    /* border: 2px solid red;  */
+    text-align: center;
+    margin:0;
+    padding:0;
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.form-group {
+    margin: 0;
+    padding:0;
+    
+}
+.form-group input{
+    margin-left: 170px;
+    padding-right: 118px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius:5px;
+    
+}
+.form-group textarea{
+    margin-left: 145px;
+    padding-right:14px;
+    border-radius:5px;
+}
+.name {
+    padding-right: 67px;
+}
+.email {
+    padding-right: 67px;
+}
+.message {
+    padding-right: 8px;
+}
+.submit-button {
+    margin-top: 5px;
+    margin-right: 24px;
+    padding-top:3px;
+    padding-bottom: 4px;
+    padding-right: 2px;
+    
+    
+}
+footer{
+    background-color: black;
+    height: 35px;
+    color: white;
+    text-align: center;
+    font-size:11px;
+    
+    padding-top: 15px;
+    
+}
+    
+
+
+
+
+
+
+   
